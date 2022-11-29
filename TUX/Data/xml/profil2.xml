@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+    Document   : save_example.xml.xml
+    Created on : August 31, 2014, 3:31 PM
+    Author     : Johan Sarrazin / Céline Fouard / Nicolas Glade
+    Description:
+        Purpose of the document follows.
+-->
+
+<!--Joueur 2-->
+<ns1:profil xmlns:ns1="http://myGame/tux" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://myGame/tux ../xsd/profil.xsd">
+    
+    
+        <ns1:nom>PapeauLeGuerrrrrrier</ns1:nom>
+        <ns1:avatar>barbare.png</ns1:avatar>
+        <ns1:anniversaire>2009-10-01</ns1:anniversaire>
+        <ns1:parties>
+            <ns1:partie date="2015-09-04">
+                <ns1:temps>25.1</ns1:temps>
+                <ns1:niveau difficulte="1">
+                    <ns1:mot>Non</ns1:mot>   
+                </ns1:niveau>
+            </ns1:partie>
+            <ns1:partie date="2013-12-11" trouve="25%">
+                <ns1:niveau difficulte="2">
+                    <ns1:mot>Manger</ns1:mot>   
+                </ns1:niveau>
+            </ns1:partie>
+            <ns1:partie date="2013-12-11">
+                <ns1:temps>20.0</ns1:temps>
+                <ns1:niveau difficulte="2">
+                    <ns1:mot>Pratiquer</ns1:mot>   
+                </ns1:niveau>
+            </ns1:partie>
+        </ns1:parties>  
+    
+    
+</ns1:profil>

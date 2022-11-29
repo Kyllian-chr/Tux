@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<tux:dictionnaire
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:tux='http://myGame/tux'
+    xsi:schemaLocation='http://myGame/tux ../xsd/dico.xsd'>
+    
+    <tux:niveau difficulte='1'>
+        <tux:mot>Oui</tux:mot>
+        <tux:mot>Non</tux:mot>
+        <tux:mot>Bat</tux:mot>
+        <tux:mot>Pate</tux:mot>
+        <tux:mot>But</tux:mot>
+        <tux:mot>Dos</tux:mot>
+        
+    </tux:niveau>
+    <tux:niveau difficulte='2'>
+        <tux:mot>Faire</tux:mot>
+        <tux:mot>Manger</tux:mot>
+        <tux:mot>Lundi</tux:mot>
+        <tux:mot>Mardi</tux:mot>
+        <tux:mot>Mercredi</tux:mot>
+        <tux:mot>Jeudi</tux:mot>
+        <tux:mot>Vendredi</tux:mot>
+        <tux:mot>Samedi</tux:mot>
+        <tux:mot>Lundi</tux:mot>
+        <tux:mot>Dimanche</tux:mot>
+    </tux:niveau>
+    <tux:niveau difficulte='3'>
+        <tux:mot>Peut-etre</tux:mot>
+        <tux:mot>Apprendre</tux:mot>
+        <tux:mot>Connaitre</tux:mot>
+        <tux:mot>Pratiquer</tux:mot>
+        <tux:mot>Concentrer</tux:mot>
+    </tux:niveau>
+    <tux:niveau difficulte='4'>
+        <tux:mot>Commercialiser</tux:mot>
+        <tux:mot>Vandalisme</tux:mot>
+        <tux:mot>Grand-parent</tux:mot>
+        
+    </tux:niveau>
+    <tux:niveau difficulte='5'>
+        <tux:mot>Catadioptre</tux:mot>
+        
+    </tux:niveau>
+    
+</tux:dictionnaire>
+

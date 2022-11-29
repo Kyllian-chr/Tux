@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XmlSchema.xsd to edit this template
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tux="http://myGame/tux"
+           targetNamespace="http://myGame/tux"
+           elementFormDefault="qualified">
+       
+    <!-- Déclaration de la racine Dictionnaire--> 
+    <xs:element name="dictionnaire" type="tux:Dictionnaire"/>   
+    
+    <!-- Composition d'un dictionnaire-->
+    <xs:complexType name="Dictionnaire">
+        <xs:sequence>
+            <xs:element name="niveau" type="tux:Niveau" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <!-- Composition d'un niveau-->
+    <xs:complexType name="Niveau">
+        <xs:sequence>
+            <xs:element name="mot" type="tux:Mot" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name ="difficulte" type="xs:int" use="required"/>
+    </xs:complexType>
+   
+    <xs:simpleType name="Mot">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z].([a-z])*|[A-Z]([a-z])*.-([a-z])*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    
+    
+    
+    
+</xs:schema>
